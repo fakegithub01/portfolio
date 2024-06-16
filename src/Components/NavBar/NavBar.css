@@ -1,0 +1,44 @@
+.navbar {
+    height: 10vh;
+    width: 99vw;
+    background-color: #001341;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.navbar h1 {
+    color: #ea5ed0;
+    margin-left: 10px;
+    margin-right: 100px;
+    font-weight: 490;
+}
+.navbar-item {
+    color: rgb(220, 217, 217);
+}
+.navbar-item:hover{
+    cursor: pointer;
+    color: #5eea6a;
+}
+.navbar-item::after {
+    width: 0;
+    height: 2px;
+    background-color: #5eead4;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-item:hover::after {
+    width: 100%;
+}
+.navbar-menu {
+    display: flex;
+    color: rgb(7, 0, 141);
+    list-style: none;
+    gap: 25px;
+    font-size: 30px;
+    height: 100%;
+    justify-content: end;
+    margin-right: 199px;
+    margin-top: 0px;
+    align-items: center;
+}
