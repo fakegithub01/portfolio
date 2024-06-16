@@ -27,7 +27,7 @@ Welcome to the digital playground where creativity meets code! Here, HTML, CSS, 
             <div className='btn'>CSS</div>
         </div>
         <div className="project-links">
-          <a href="https://github.com/fakegithub01/dev_Portfolio" className="github-icon"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/fakegithub01/portfolio" className="github-icon"><i class="fa-brands fa-github"></i></a>
           <a href=' ' className='deployed-link'><i class="fa-solid fa-link"></i></a>
         </div>
     </div>
